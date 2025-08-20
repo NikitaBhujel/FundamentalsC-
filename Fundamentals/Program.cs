@@ -8,6 +8,7 @@ namespace fundamental
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("Lets get started");
+            console.writeline("C# is read as C Sharp ");
         }
     }
 }
