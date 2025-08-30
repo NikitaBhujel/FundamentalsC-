@@ -14,6 +14,14 @@ namespace fundamental
             int a = 2, b = 3;
             Console.WriteLine("Display" + (a + b));
             //Console.ReadLine();
+            //Variables are containers for storing data values
+            string name = "Niki";
+            Console.WriteLine(name);
+            int myNum = 15;
+            Console.WriteLine(myNum);
+            int my = 15;
+            my = 20; // myNum is now 20
+            Console.WriteLine(my);
         }
     }
 }
