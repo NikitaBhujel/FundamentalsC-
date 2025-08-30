@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 
 namespace fundamental
 {
@@ -22,6 +23,12 @@ namespace fundamental
             int my = 15;
             my = 20; // myNum is now 20
             Console.WriteLine(my);
+            //constant
+            const int c = 1;
+            //myNum = 20; This throws error
+            Console.WriteLine("c" + c);
+
+
         }
     }
 }
