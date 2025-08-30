@@ -6,9 +6,11 @@ namespace fundamental
     {
         static void Main(string[] args)
         {
+            Console.Write("Hi");
             Console.WriteLine("Hello World!");
             Console.WriteLine("Lets get started");
-            console.writeline("C# is read as C Sharp ");
+            Console.Write("C# is read as C Sharp ");
+            //Console.ReadLine();
         }
     }
 }
